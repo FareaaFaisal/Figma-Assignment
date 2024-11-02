@@ -2,100 +2,119 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+ <div className="full-homepage">
+  <div className="maincontent">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+ <div className="project-container">
+   <h1 className="project">PROJECT</h1>
+   <h1 className="lorum">Lorum</h1>
+
+   <div className="button-container">
+     <img src="/Frame 9.png" alt="arrow-button" className="button-img" />
+     <img src="/Frame 8.png" alt="arrow-button" className="button-img" />
+   </div>
+ </div>
+
+ <div className="mainimage">
+   <Image
+     src="/homepic.png"
+     alt="web page logo"
+     width={770}
+     height={829}
+     layout="responsive"
+   />
+ </div>
+ </div>
+{/* ----------- ABOUT SECTION --------- */}
+ <div className="About-section">
+  <div className="about-images">
+  <div className="align-img-about">
+  <img src="/aboutimg1.png" alt="building-image" className="aboutimg" /><br/><br/>
+  <img src="/aboutimg2.png" alt="building-image" className="aboutimg" /><br/><br/>
+  </div>
+ 
+ <img src="/aboutimg3.png" alt="building-image" className="aboutimg" />
+ </div>
+ <div className="About-text">
+ <h1 className="aboutheading">About</h1>
+ <p className="aboutpara">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+ <img src="/readmorebutton.png" alt="read more button"/><br/><br/><br/><br/><br/><br/><br/>
+ </div>
+ 
+ </div>
+
+ {/* ----------------- MAIN FOCUS AREA ------------------ */}
+
+<div className="main-focus">
+<h1>Main Focus/Mission Statement</h1>
+  <div className="mainfocus-content">
+    <div className="focus-item">
+      <div className="focus-number"><img src="/1.png" alt="1" className="focus-imageone" /></div>
+      <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/> Sed efficitur, lectus et<br/> facilisis placerat.</p>
     </div>
+    <div className="focus-item">
+      <div className="focus-number"><img src="/2.png" alt="2" className="focus-imagetwo" /></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br/>elit. Sed efficitur, lectus<br/>et facilisis placerat, magna mauris <br/>porttitor tortor, a auctor est</p>
+    </div>
+  </div>
+</div>
+
+ {/* ----------------- OUR PROJECTS AREA ------------------ */}
+
+ <div className="our-projects">
+<h1>Our Projects</h1>
+  <div className="our-project-images">
+    <div className="flex gap-2">
+      <div className="focus-number">
+      <div className="container">
+           <img src="img1overlay.png" alt="1"/>
+           <div className="centered">Sample<br/>Projects<br/><span className="flex gap-2 text-sm">View More <img src="/arrow-2-right-long.png"/></span></div>
+      </div><br/>
+      </div>
+      <div className="focus-number"><img src="/img2.png" alt="2" className="focus-imagetwo" /><br/></div>
+    </div>
+     
+     <div className="flex gap-3">
+     <div className="focus-number"><img src="/img3.png" alt="3" className="focus-imagethree" /></div>
+      <div className="focus-number"><img src="/img4.png" alt="4" className="focus-imagefour" /></div>
+      <div className="focus-number"><img src="/img5.png" alt="5" className="focus-imagefive" /></div>
+     </div>
+     
+     <div className="button-div">
+     <button type="button" className="button">
+    <img src="/our-projects-button.png" alt="Button Image"/>
+      </button>
+     </div>
+
+      </div>
+</div>
+{/* ----------------- OUR CONTACTS AREA ------------------ */}
+<div className="our-contacts">
+<h1>Contacts Us</h1>
+<div className="contact-container">
+  <div className="contact-form">
+       <form method="get">
+          <input type="text" placeholder="Name "/>
+          <input type="tel" placeholder="Phone Number *" required/>
+          <input type="email" placeholder="Email *" required/>
+          <input type="text" placeholder="Interested In" />
+          <textarea placeholder="message *" rows={6} required></textarea>
+       </form>
+  </div>
+  <div className="contact-image"><img src="/manimg.png" alt="man-image" width={749} height={700}/></div>
+</div>
+
+ <div className="contact-button-div">
+     <button type="button" className="contact-button">
+    <img src="/sendemailbutton.png" alt="Button Image"/>
+      </button>
+     </div>
+</div>
+
+
+</div>
+          
+
+          
   );
 }
