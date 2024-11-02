@@ -1,7 +1,3 @@
-import Header from "@/app/components/header"
-import Footer from "@/app/components/footer"
-import Link from "next/link"
-
 export default function Projects(){
     return(
      <div className="Projects-Page">
