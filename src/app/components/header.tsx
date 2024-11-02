@@ -21,10 +21,10 @@ export default function Header() {
 
             <ul className="header-button">
                 <li className='MAIN'><Link href="/">MAIN</Link></li>
-                <li><Link href="/about-us">GALLERY</Link></li>
-                <li><Link href="/contact-us">PROJECTS</Link></li>
-                <li><Link href="/our-branches">CERTIFICATIONS</Link></li>
-                <li><Link href="/our-branches">CONTACTS</Link></li>
+                <li><Link href="/gallery">GALLERY</Link></li>
+                <li><Link href="/projects">PROJECTS</Link></li>
+                <li><Link href="/certifications">CERTIFICATIONS</Link></li>
+                <li><Link href="/contacts">CONTACTS</Link></li>
             </ul>
         </div>
     );

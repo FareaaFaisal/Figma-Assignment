@@ -46,7 +46,7 @@ export default function Home() {
  {/* ----------------- MAIN FOCUS AREA ------------------ */}
 
 <div className="main-focus">
-<h1>Main Focus/Mission Statement</h1>
+<div className="main-focus-heading"><h1>Main Focus/Mission Statement</h1></div>
   <div className="mainfocus-content">
     <div className="focus-item">
       <div className="focus-number"><img src="/1.png" alt="1" className="focus-imageone" /></div>
@@ -82,7 +82,7 @@ export default function Home() {
      
      <div className="button-div">
      <button type="button" className="button">
-    <img src="/our-projects-button.png" alt="Button Image"/>
+    <a href="/projects"><img src="/our-projects-button.png" alt="Button Image"/></a>
       </button>
      </div>
 

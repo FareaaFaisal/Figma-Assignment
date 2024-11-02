@@ -240,7 +240,7 @@ padding: 20px;
   /* margin-left: 20px; */
 }
 
-.main-focus h1 {
+.main-focus-heading{
   margin-top: 30px;
   font-size: 64px;
   color: #BDBDBD;
@@ -468,5 +468,41 @@ textarea {
 .copyrightline{
   color: #C8C8C8;
   margin-bottom: 0;
+}
+
+/* **************************************************************************** */
+/* --------------------- OUR CONTACTS PAGE ------------------------ */
+.map-container {
+  display: flex;         
+  justify-content: flex-end; /* Align items to the right */
+  margin-top: 30px;     
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+
+iframe {
+  border: 0;            /* Ensure no border is displayed */
+}
+
+.Contact-page{
+  display: flex;
+  gap:50px;
+}
+
+/* **************************************************************************** */
+/* --------------------- OUR PROJECTS PAGE ------------------------ */
+.div-1{
+  display: flex;
+  gap:90px;
+}
+
+.div-2{
+  display: flex;
+  gap:90px;
+}
+
+.div-3{
+  display: flex;
+  gap:90px;
 }
 
